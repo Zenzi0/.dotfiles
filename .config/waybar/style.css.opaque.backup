@@ -1,0 +1,37 @@
+* {
+  font-size: 12px;
+  font-family: "Terminus (TTF)";
+  font-weight: bold;
+}
+
+window#waybar {
+  background: rgba(0,0,0,0);
+  color: #c5c8c6;
+
+}
+
+#clock {
+  padding: 4px 5px;
+  color: #FFF;
+}
+
+#pulseaudio {
+  padding: 4px 10px;
+}
+
+#network {
+  padding: 4px 10px;
+}
+
+#tray {
+  padding: 4px 5px;
+}
+
+#workspaces,#clock,#pulseaudio,#network, #tray {
+  opacity:0.8;
+  padding: 4px 5px;
+  border-radius: 1px;
+  margin: 3px;
+  background: #1c1e26;
+  color: #c5c8c6;
+}
